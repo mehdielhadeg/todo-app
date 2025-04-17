@@ -20,6 +20,5 @@ services:
        - MYSQL_DATABASE=todos
      volumes:
        todo-mysql-data:/var/lib/mysql
-
-  volumes:
+volumes:
      todo-mysql-data:
